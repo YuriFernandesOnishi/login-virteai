@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - VirTEAi</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./cadastro.js" type="module" defer></script></head>
+
+<body>
+<!-- Header -->
+<header>
+    <div class="header-content">
+        <div class="logo">
+            <img src="/src/assets/image/Logo VirteAI 2.svg" alt="Logo VirTEAi">
+        </div>
+        <div class="voltar">
+            <a href="/index.html">
+                <span class="arrow">&lt;</span> Voltar para a página inicial
+            </a>
+            <img class="icon-home" src="/src/assets/image/house.svg" alt="Ícone de casa">
+        </div>
+    </div>
+</header>
+
+<!-- Formulário de Cadastro -->
+<main class="login-container">
+    <div class="login-box">
+        <img class="login-logo" src="/src/assets/image/Logo VirteAI 2.svg" alt="Logo VirTEAi">
+        <form id="cadastro-form">
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" class="login-input" autocomplete="name" required>
+
+            <input type="email" id="email" name="email" placeholder="Digite seu email" class="login-input" autocomplete="email" required>
+
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" class="login-input" autocomplete="new-password" minlength="6" required>
+
+            <!-- Botão de Enviar -->
+            <button type="submit" id="register-button" class="login-button">Cadastrar</button>
+        </form>
+    </div>
+</main>
+</body>
+
+</html>
